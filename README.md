@@ -10,13 +10,9 @@
 <p align="center">Una modificación de Windows para gaming.</p>
 
 <p align="center">
-  <a href="https://atlasos.net" target="_blank">🌐 Website</a>
+  <a href="https://ko-fi.com/apexos" target="_blank">💸 Donar</a>
   •
-  <a href="https://docs.atlasos.net" target="_blank">📚 Documentation</a>
-  •
-  <a href="https://discord.atlasos.net" target="_blank">☎️ Discord</a>
-  •
-  <a href="https://github.com/Atlas-OS/Atlas/discussions" target="_blank">💬 Discussions</a>
+  <a href="https://dsc.gg/apexos" target="_blank">☎️ Discord</a>
 </p>
 
 ## 📚 **Important Documentation**
