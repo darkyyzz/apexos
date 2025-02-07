@@ -7,7 +7,7 @@
 </a>
     </a>
   </p>
-<p align="center">A transparent and lightweight modification to Windows, designed to optimize performance, privacy and usability.</p>
+<p align="center">Una modificación de Windows para gaming.</p>
 
 <p align="center">
   <a href="https://atlasos.net" target="_blank">🌐 Website</a>
