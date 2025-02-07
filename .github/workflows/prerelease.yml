@@ -1,0 +1,44 @@
+name: Archivo y Pre-Estreno
+
+on:
+  workflow_dispatch:
+
+env:
+  FILENAME: 'Apex-PB-${{ github.event.workflow_run.started_at }}.apbx'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Codigo de checkout
+        uses: actions/checkout@v4
+        with:
+          ref: 'dev'
+
+      - name: Version
+        id: set_version
+        run: |
+          CURRENT_DATE=$(date +%y.%m.%d)
+          echo "VERSION=${CURRENT_DATE}" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Actualizar version
+        run: |
+          $version = "${{ env.VERSION }}"
+          $playbookConfPath = "src\playbook.conf"
+          $finalizeCMDPath = "src\Executables\FINALIZE.cmd"
+
+          (Get-Content -Path $playbookConfPath) -replace '<Version>.*</Version>', "<Version>$version</Version>" | Set-Content -Path $playbookConfPath
+
+          (Get-Content -Path $finalizeCMDPath) -replace 'set version=.+', "set version=$version" | Set-Content -Path $finalizeCMDPath
+        shell: pwsh
+
+      - name: Contenido de archivo
+        run: |
+          7z a -pmalte -mhe=on "Revi-PB-${{ env.VERSION }}.apbx" ./src/*
+
+      - name: Generar SHA256
+        run: |
+          $hash = (Get-FileHash -Algorithm SHA256 -Path "Revi-PB-${{ env.VERSION }}.apbx").Hash
+          echo ("HASH=" + $hash) >> $env:GITHUB_ENV

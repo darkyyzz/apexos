@@ -1,0 +1,80 @@
+name: Reporte de Error
+description: Presenta un informe de error
+title: "[ERROR]: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de presentar un informe de error! Por favor, completa la siguiente información para ayudarnos a solucionar el problema.
+  
+  - type: textarea
+    id: describe-bug
+    validations:
+      required: true
+    attributes:
+      label: Describe el error
+      description: Una descripción clara y concisa de cuál es el error.
+      placeholder: Intenté hacer X, pero en su lugar ocurrió Y.
+  
+  - type: textarea
+    id: steps-to-reproduce
+    validations:
+      required: true
+    attributes:
+      label: Pasos para reproducir
+      description: Pasos para reproducir el problema.
+      value: |
+        1. 
+        2. 
+        3. 
+        4. 
+      placeholder: |
+        1. Ir a '...'
+        2. Hacer clic en '....'
+        3. Desplazarse hasta '....'
+        4. Ver el error.
+  
+  - type: textarea
+    id: expected-behavior
+    validations:
+      required: true
+    attributes:
+      label: Comportamiento esperado
+      description: Una descripción clara y concisa de lo que esperabas que ocurriera.
+      placeholder: Esperaba que ocurriera Z.
+  
+  - type: textarea
+    id: environment
+    validations:
+      required: true
+    attributes:
+      label: Entorno
+      description: |
+        Por favor, completa la siguiente información. Puedes encontrar la versión y número de compilación de tu sistema operativo ejecutando `winver` en el cuadro de diálogo Ejecutar.
+      value: |
+        - Número de compilación del SO y edición: `escribe aquí`
+        - Versión de Apex: `escribe aquí`
+        - Especificaciones: `escribe aquí`
+      placeholder: |
+        - Número de compilación del SO y edición: `19045.3633, Home`
+        - Versión de Apex: `23.10`
+        - Especificaciones: `PC, Intel Core i5-10400, 16GB RAM, NVIDIA GeForce GTX 1650`
+  
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Información adicional
+      description: |
+        Agrega cualquier otro contexto sobre el problema aquí.
+      placeholder: |
+        Desactivé Windows Defender, pero sigue ejecutándose después de reiniciar.
+  
+  - type: checkboxes
+    id: search-before-submit
+    attributes:
+      label: ¿Has buscado problemas similares?
+      description: Asegúrate de buscar problemas similares antes de enviar uno nuevo y revisa la [documentación](https://revi.cc/docs) en el sitio web de Revision.
+      options:
+      - label: He buscado problemas similares y no he encontrado ninguno.
+        required: true

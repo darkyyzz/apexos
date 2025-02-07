@@ -1,0 +1,31 @@
+---
+title: Custom
+description: Configuracion custom de Apex
+privilege: Admin
+actions:
+  
+  - !task: {path: 'Tasks\registry\os-info\edition.yml'}
+  - !task: {path: 'Tasks\registry\os-info\oem-info.yml'}
+
+  - !task: {path: 'Tasks\start.yml'}
+  
+  - !task: {path: 'Tasks\packages\app-win32.yml'}
+  - !task: {path: 'Tasks\packages\win-sxs.yml'}
+  - !task: {path: 'Tasks\packages\appx.yml'}
+
+  
+  - !taskKill: {name: "explorer", errorAction: Ignore}
+  - !taskKill: {name: "SearchApp", errorAction: Ignore}
+  - !taskKill: {name: "SearchHost", errorAction: Ignore}
+  - !taskKill: {name: "RuntimeBroker", errorAction: Ignore}
+  - !taskKill: {name: "TextInputHost", errorAction: Ignore}
+  - !taskKill: {name: "ShellExperienceHost", errorAction: Ignore}
+  - !taskKill: {name: "backgroundTaskHost", errorAction: Ignore}
+  - !taskKill: {name: "Widgets", errorAction: Ignore}
+
+  - !task: {path: 'Tasks\software.yml'}
+  - !task: {path: 'Tasks\services.yml'}
+  
+  - !task: {path: 'Tasks\registry.yml'}
+  - !task: {path: 'Tasks\revert.yml'}
+  - !task: {path: 'Tasks\final.yml'}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Preguntas y Discusiones
+    url: https://github.com/darkyyzz/apexos/discussions
+    about: Para preguntas generales o asistencia técnica, utilice la página Debates
+  - name: Discord
+    url: https://dsc.gg/apexos
+    about: Únete a nuestro servidor Discord para chatear con la comunidad y recibir asistencia técnica

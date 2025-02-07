@@ -1,0 +1,44 @@
+name: Solicitud de Función
+description: Sugiere una idea para este proyecto
+title: "[FUNCIÓN]: "
+labels: ["mejora"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de presentar una solicitud de función! Por favor, completa la siguiente información para ayudarnos a implementarla.
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Descripción
+      description: Una descripción clara y concisa.
+      placeholder: Agregar una función que haga X.
+
+  - type: textarea
+    id: benefit
+    validations:
+      required: true
+    attributes:
+      label: Beneficio
+      description: Explica cómo esta función beneficiará a los usuarios o al proyecto.
+      placeholder: Esta función mejorará...
+
+  - type: textarea
+    id: implementation
+    validations:
+      required: false
+    attributes:
+      label: Implementación (Opcional)
+      description: Explica cómo se implementará esta función.
+      placeholder: Esta función se implementará mediante...
+
+  - type: checkboxes
+    id: search-before-submit
+    attributes:
+      label: ¿Has buscado solicitudes de funciones similares?
+      options:
+      - label: He buscado solicitudes de funciones similares y no he encontrado ninguna.
+        required: true
