@@ -15,11 +15,9 @@
   <a href="https://dsc.gg/apexos" target="_blank">☎️ Discord</a>
 </p>
 
-## 📚 **Important Documentation**
-- [Installation](https://docs.atlasos.net/getting-started/installation/)
-- [FAQ & Common Issues](https://docs.atlasos.net/faq-and-troubleshooting/removed-features/)
-- [Contribution Guidelines](https://docs.atlasos.net/contributions/)
-- [Branding](https://docs.atlasos.net/branding/)
+## 📚 **Links Importantes**
+- [Instalación](https://discord.com/channels/1337067732788580363/1337149468109439138)
+- [Instalar correctamente drivers](https://discord.com/channels/1337067732788580363/1337463336362704920)
 
 ## 🤔 What is Atlas?
 
