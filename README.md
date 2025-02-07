@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="http://dsc.gg/apexos" target="_blank"><img src="https://imgur.com/otr3dtD" alt="Apex" width="800"></a>
+  <a href="http://dsc.gg/apexos" target="_blank"><img src="https://i.imgur.com/otr3dtD.png" alt="Apex" width="800"></a>
 </h1>
   <p align="center">
     <a href="https://google.com/"><img alt="Descargar" src="https://img.shields.io/github/downloads/darkyyzz/apexos/total?style=for-the-badge&label=Descargas&color=1a91ff"/></a>
