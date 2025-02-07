@@ -2,9 +2,10 @@
   <a href="https://dsc.gg/apexos" target="_blank"><img src="https://i.imgur.com/G8YDhB9.png" alt="Apex" width="800"></a>
 </h1>
   <p align="center">
-    <a href="https://img.shields.io/github/downloads/darkyyzz/apexos/total?label=Total%20downloads"><img alt="License" src="https://img.shields.io/github/downloads/darkyyzz/apexos/total?label=Total%20downloads"/></a>
-    <a href="https://github.com/Atlas-OS/Atlas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/atlas-os/atlas?style=for-the-badge&color=1A91FF" /></a>
-    <a href="https://github.com/Atlas-OS/Atlas/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/atlas-os/atlas?style=for-the-badge&color=1A91FF" /></a>
+    <a href="https://google.com/"><img alt="Descargar" src="https://img.shields.io/github/downloads/darkyyzz/apexos/total?style=for-the-badge&label=Descargas&color=1a91ff"/></a>
+    <a href="https://dsc.gg/apexos"><img alt="Discord" src="https://img.shields.io/discord/1337067732788580363?style=for-the-badge&label=Discord%20de%20ApexOS" /></a>
+    <a href="https://github.com/Atlas-OS/Atlas/releases/latest"><img alt="Version" src="https://img.shields.io/github/v/release/darkyyzz/apexos?style=for-the-badge&label=Version&color=1a91ff
+" /></a>
     <a href="https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge&color=1A91FF" /></a>
   </p>
 <p align="center">A transparent and lightweight modification to Windows, designed to optimize performance, privacy and usability.</p>
