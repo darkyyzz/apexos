@@ -1,4 +1,8 @@
 <h1 align="center">
+ApexOS Github📜
+
+---
+
   <a href="http://dsc.gg/apexos" target="_blank"><img src="https://i.imgur.com/otr3dtD.png" alt="Apex" width="800"></a>
 </h1>
   <p align="center">
