@@ -7,6 +7,7 @@ ApexOS Github📜
 </h1>
   <p align="center">
     <a href="https://google.com/"><img alt="Descargar" src="https://img.shields.io/github/downloads/darkyyzz/apexos/total?style=for-the-badge&label=Descargas&color=1a91ff"/></a>
+    <a href="https://ko-fi.com/apexos"><img alt="Donar" src="https://img.shields.io/badge/KoFi-Donar-orange?style=for-the-badge&logo=ko-fi"/></a>
     <a href="https://dsc.gg/apexos"><img alt="Discord" src="https://img.shields.io/discord/1337067732788580363?style=for-the-badge&label=Discord%20de%20ApexOS" /></a>
 </a>
     </a>
